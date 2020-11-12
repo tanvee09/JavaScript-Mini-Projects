@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(./images/background.png);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 2rem auto;
+    color: white;
+    word-spacing: 1rem;
+    letter-spacing: 0.2rem;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.card {
+    border: 3px solid white;
+    margin: 2rem auto;
+}

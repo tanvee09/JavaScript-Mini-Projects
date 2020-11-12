@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Note Taking App</title>
+    <link rel="icon" href="https://img.icons8.com/fluent/48/000000/sticky-notes.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="popup" onclick="off()">
+		<h2 id="popup-title"></h2>
+		<div id="text"></div>
+	</div>
+
+    <h1>Note Taking App</h1>
+  
+    <form>
+        <input type="text" id="formTitle" placeholder="Title..."/>
+        <textarea name="formNoteText" id="formNoteText" cols="50" rows="8" maxlength="300" placeholder="Note..."></textarea>
+        <select name="formColor" id="formColor">
+			<option value="none">Select color</option>
+			<option value="pink">Pink</option>
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+			<option value="orange">Orange</option>
+        </select>
+        <button id="formAddButton">Add note</button>
+      </form>
+
+    <br/>
+
+    <div id="notes"></div>
+	
+    <a href="https://icons8.com/icon/EQ81mUwjgToc/note" id="extra">Note icon by Icons8</a>
+    
+    <script src="script.js"></script>
+  
+</body>
+</html>

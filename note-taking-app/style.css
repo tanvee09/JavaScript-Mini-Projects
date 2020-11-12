@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #bdbdbd;
+    color: #e5557b;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form input {
+    border-radius: 0.4rem;
+    margin: 0.5rem 0 0.5rem;
+    width: 26.8rem;
+    height: 1.5rem;
+    font-size: large;
+}
+
+textarea {
+    display: block;
+    background-color: #dae2de;
+}
+
+textarea, form select, form input {
+    background: #fff;
+    border: 2px solid #44826f;
+    border-radius: 0.4rem;
+}
+
+form select, form button {
+    display: inline-block;
+    margin: 2rem 1rem 0 0;
+    height: 2rem;
+    width: 7rem;
+}
+
+#formAddButton {
+    width: 7rem;
+    background-color: #44826f;
+    color: #fff;
+    border-radius: 0.4rem;
+    border: 0;
+    transition: 0.5s;
+}
+  
+#formAddButton:hover {
+    cursor: pointer;
+    background-color: #60aa74;
+}
+
+.notes {
+    text-align: center;
+}
+
+.note {
+    width: 10rem;
+    height: 10rem;
+    color: black;
+    background-color: white;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 0.4rem;
+    margin: 1rem 2rem 1rem 0;
+    display: inline-block;
+    position: relative;
+    border: 3px solid rgb(151, 148, 148);
+}
+
+.note.orange {
+    background-color: rgb(218, 125, 92);
+    border-color: rgb(182, 93, 60);
+}
+
+.note.blue {
+    background-color: rgb(141, 204, 212);
+    border-color: rgb(85, 160, 170);
+}
+
+.note.green {
+    background-color: #5fad73;
+    border-color: #44826f;
+}
+
+.noteText {
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    color: black;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+}
+
+.noteTitle {
+    display: none;
+}
+
+.note.pink {
+    background-color: #e98ba4;
+    border-color: #c55674;
+}
+
+.note span {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 0.2rem;
+    right: 0.1rem;
+    color: #333;
+    text-align: center;
+}
+  
+.note span:hover {
+    color: #666;
+    cursor: pointer;
+}
+
+.note button {
+    width: 6rem;
+    height: 2rem;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 0.4rem;
+    border: 0;
+    transition: 0.5s;
+    position: absolute;
+    bottom: 2rem;
+    left: 2.8rem;
+    transition: transform .2s;
+}
+
+.note.green button {
+    background-color: #44826f;
+}
+
+.note.pink button {
+    background-color: #c55674;
+}
+
+.note.blue button {
+    background-color:rgb(85, 160, 170);
+}
+
+.note.orange button {
+    background-color:rgb(182, 93, 60);
+}
+
+.note button:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#popup {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+#popup-title {
+    padding-top: 10rem;
+    padding-left: 30%;
+    padding-bottom: 0.5rem;
+    text-decoration: underline;
+    font-size: 30px;
+    color: #e5557b;
+}
+
+#text{
+    padding-top: 0.5rem;
+    padding-left: 30%;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    color: #60aa74;
+    width: 40%;
+}
+
+#extra {
+    color: rgb(92, 92, 92);
+    position: fixed;
+    right: 8px;
+    bottom: 0;
+    text-decoration: none;
+    z-index: 0;
+}
