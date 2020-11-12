@@ -1,4 +1,4 @@
-# JavaScript-Mini-Projects
+# JavaScript Mini Projects
 
 - Expense Manager
 - Sticky Notes
